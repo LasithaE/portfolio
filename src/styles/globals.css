@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #fff4ea;
+  font-family: bodyFont;
+}
