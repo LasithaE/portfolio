@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -14,8 +15,9 @@ module.exports = {
         containerxs: "768px",
       },
       screens: {
-        md: "795px",
-        lg: "1330px",
+        xl: "1000px",
+        lg: "795px",
+        md: "700px",
         xs: "585px",
       },
       fontFamily: {

@@ -7,8 +7,8 @@ const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
   console.log(openNav);
   return (
-    <div>
-      <div className="hidden md:flex flex-row  mr-3 float-right">
+    <div className="sticky">
+      <div className="hidden md:flex flex-row  mt-9 float-right">
         <Link href="/" className="mr-6 mt-9 font-semibold">
           About
         </Link>

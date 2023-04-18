@@ -4,23 +4,25 @@ import {
   faYoutube,
   faMedium,
   faTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const About = () => {
   const intro = [
-    "Hi, I am Lasitha E.",
-    "I am a Full Stack (focusing on Frontend) developer who is into open source, cool projects and new tech ! Always looking for exciting remote opportunities to contribute and work on. Currently situated at Bangalore, India and traveling here and there.",
+    "Hi, I am Lasitha 👋🏻",
+    "I am a Full Stack (focusing on Frontend) developer who is into open source, cool projects and new tech !",
+    "Always looking for exciting remote opportunities to contribute and work on. Currently situated at Bangalore, India and traveling here and there.",
   ];
 
   return (
     <div className="flex flex-row">
-      <div className="flex flex-col ml-[50px]">
+      <div className="flex flex-col ml-[50px] mr-[60px]">
         <a
           target="_blank"
           href="https://twitter.com/lasitha_e"
-          className="mt-40 mr-10"
+          className="mt-[100px]"
         >
           <FontAwesomeIcon icon={faTwitter} size="xl" color="#a43434" />
         </a>
@@ -48,22 +50,37 @@ const About = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} size="xl" color="#a43434" />
         </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/lasithae/"
+          className="mt-8"
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="xl" color="#a43434" />
+        </a>
       </div>
-      <div className="bg-darkPinkColor w-[60%] mt-10 ml-[10%] mr-[100px] p-10">
-        <div className="flex flex-col">
-          <div className="pb-5 text-2xl font-black text-brownColor">
+      <div className="flex flex-col gap-6 rounded-xl justify-center items-center pb-10  mt-[50px] h-[600px] bg-darkPinkColor mr-[60px] md:mb-[100px]">
+        <div className="flex flex-col pr-7 md: pb-10 h-[400px] pl-[20px]">
+          <div className="pb-7 text-center text-3xl font-black px-4 mt-[200px] text-brownColor md:mt-[0px]">
             {intro[0]}
           </div>
-          <div className="text-lg font-regular">{intro[1]}</div>
+
+          <div className="text-lg text-center font-regular px-4">
+            {intro[1]}
+          </div>
+          <div className="text-lg text-center pt-[40px] font-regular px-4">
+            {intro[2]}
+          </div>
+          <div className="hidden"></div>
         </div>
-        <div id="lassi" className="mt-4 right-0 bottom-0">
-          <Image
-            width={200}
-            height={200}
-            alt="Profile Pic"
-            src="/assets/images/profilepic.png"
-          />
-        </div>
+
+        <Image
+          width={200}
+          height={200}
+          objectFit="contain"
+          alt="Profile Pic"
+          className="rounded-[50%] bg-brownColor p-2 -mt-12 md:-mb-[40%] "
+          src="/assets/images/profilepic3.png"
+        />
       </div>
     </div>
   );
