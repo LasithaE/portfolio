@@ -7,8 +7,8 @@ const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
   console.log(openNav);
   return (
-    <div className="sticky">
-      <div className="hidden md:flex flex-row  mt-9 float-right">
+    <div className="">
+      <div className="hidden md:flex flex-row right-0 fixed top-0 mr-[10px]">
         <Link href="/" className="mr-6 mt-9 font-semibold">
           About
         </Link>
@@ -31,8 +31,8 @@ const NavBar = () => {
       <div onClick={() => setOpenNav(!openNav)}>
         {openNav ? (
           <>
-            <div className="absolute h-screen backdrop-blur-md overflow-hidden bottom-0 right-0 left-0 text-center ease-in duration-300 bg-white/30">
-              <div className="float-right mr-6 mt-6 md:hidden">
+            <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-bodyColorLight h-screen">
+              <div className="float-right mr-6 mt-6">
                 <FontAwesomeIcon icon={faClose} size="xl" color="#9D5353" />
               </div>
               <div className="flex flex-col items-center justify-center pt-[25%] pl-2">
