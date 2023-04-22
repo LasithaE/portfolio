@@ -17,7 +17,7 @@ const About = () => {
   ];
 
   return (
-    <div>
+    <div className="h-screen">
       <div className="flex flex-row lg:hidden">
         <div className="flex flex-col ml-[50px] mr-[60px]">
           <a
