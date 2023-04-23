@@ -13,7 +13,6 @@ export default function Home() {
       <Skills />
       <Blogs />
       <Resume />
-
     </div>
   );
 }

@@ -12,17 +12,22 @@ const NavBar = () => {
         <Link href="/" className="mr-6 mt-9 font-semibold">
           About
         </Link>
-        <Link href="/#projects" smooth={true} className="mr-6 mt-9 font-semibold">
+        <Link
+          href="/#projects"
+          smooth={true}
+          className="mr-6 mt-9 font-semibold"
+        >
           Projects
         </Link>
-        <Link href="/#skills" smooth={true}  className="mr-6 mt-9 font-semibold">
+        <Link href="/#skills" smooth={true} className="mr-6 mt-9 font-semibold">
           Skills
         </Link>
-        <Link href="/#blogs" smooth={true}  className="mr-6 mt-9 font-semibold">
+        <Link href="/#blogs" smooth={true} className="mr-6 mt-9 font-semibold">
           Blogs
         </Link>
         <Link
-          href="/#resume" smooth={true} 
+          href="/#resume"
+          smooth={true}
           className="mr-6 mt-[29px] font-semibold border-solid border-2 px-2 py-1 mb-3 rounded-lg border-borderColorLight"
         >
           Resume
