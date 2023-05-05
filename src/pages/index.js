@@ -1,10 +1,15 @@
-import NavBar from "../../components/NavBar";
-
+import NavBar from "../components/NavBar/NavBar";
+import About from "./about";
+import Projects from "./projects";
+import Skills from "./skills";
+import Blogs from "./blogs";
 export default function Home() {
   return (
-    <>
-      <NavBar />
-      <h1>hi</h1>
-    </>
+    <div className="font-bodyFont flex flex-col gap-4">
+      <About />
+      <Projects />
+      <Skills />
+      <Blogs />
+    </div>
   );
 }

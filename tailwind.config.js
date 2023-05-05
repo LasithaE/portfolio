@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -14,27 +15,39 @@ module.exports = {
         containerxs: "768px",
       },
       screens: {
-        xs: "320px",
-        sm: "375px",
-        sml: "500px",
-        md: "667px",
-        mdl: "768px",
-        lg: "960px",
-        lgl: "1024px",
-        xl: "1280px",
+        xl: "1000px",
+        lg: "850px",
+        md: "700px",
+        xs: "585px",
       },
       fontFamily: {
         bodyFont: ["Schibsted Grotesk", "sans-serif"],
       },
+      height: {
+        120: "20rem",
+        122: "22rem",
+        130: "30rem",
+        140: "40rem",
+      },
+      width: {
+        133: "33.5rem",
+        129: "29rem",
+      },
+      margin: {
+        102: "2.5rem",
+        110: "10rem",
+        111: "11rem",
+        114: "14.5rem",
+        116: "16rem",
+        127: "27rem",
+        140: "40rem",
+      },
       colors: {
-        bodyColorLight: "#FFF3E2",
-        textDark: "#F6F6E6",
-        textLight: "#241313",
-        headingDark: "#063227",
-        headingLight: "#701B1B",
-        bodyColorDark: "#052038",
-        inlineBodyDark: "#76B3B7",
-        inlineBodyLight: "#FF9F81",
+        bodyColorLight: "#FFF4EA",
+        borderColorLight: "#9D5353",
+        cardColorLight: "#FFD7CB",
+        darkPinkColor: "#FFA4A4",
+        brownColor: "#400a0a",
       },
     },
   },
