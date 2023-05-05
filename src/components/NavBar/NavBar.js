@@ -55,7 +55,7 @@ const NavBar = () => {
       <div onClick={() => setOpenNav(!openNav)}>
         {openNav ? (
           <>
-            <div className="block font-bodyFont fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-bodyColorLight h-screen md:hidden ">
+            <div className="block font-bodyFont fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-bodyColorLight h-screen pl-[15%] md:hidden">
               <div className="float-right mr-6 mt-6">
                 <FontAwesomeIcon icon={faClose} size="xl" color="#9D5353" />
               </div>

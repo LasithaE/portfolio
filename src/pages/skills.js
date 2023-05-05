@@ -44,7 +44,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="pt-[100px] ml-10 h-full font-bodyFont" id="skills">
+    <div className="pt-[100px] h-full font-bodyFont" id="skills">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900">My Skills</h2>
