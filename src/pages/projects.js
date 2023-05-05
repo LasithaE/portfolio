@@ -7,30 +7,35 @@ const Projects = () => {
       name: "CryptoTracker",
       desc: "A cryptocurrency tracker Google Chrome extension using ReactJS and using CoinGecko API.",
       techStack: "React, REST API",
+      link: "https://github.com/LasithaE/cryptotracker",
     },
     {
       id: "1",
       name: "ChittiGo",
       desc: "A Flutter integrated with Firebase App made as a submission for Finastra Hackathon 2020.",
       techStack: "Flutter, Firebase",
+      link: "https://github.com/LasithaE/Chitti-Go-App",
     },
     {
       id: "2",
       name: "Personality Prediction Model",
       desc: "A Machine learning model made with Python Algorithms (used here is K-means algorithm).",
       techStack: "Python & its algorithms",
+      link: "https://github.com/LasithaE/personalitypredictionmodel",
     },
     {
       id: "3",
       name: "Boart",
       desc: "A twitter bot, done as a submissions for OpenHack 2020 that tweets about a piece of art and its details daily, this was made with beautifulsoup, Selenium and Tweepy module.",
       techStack: "Python & its algorithms",
+      link: "https://github.com/LasithaE/boart",
     },
     {
       id: "4",
       name: "SerialKillerMuseum",
       desc: "A web-scraping project made to view a list of serial killers according to the selected country made with HTML, CSS, JavaScript and beautifulsoup module in Python for webscraping.",
       techStack: "Python & its algorithms",
+      link: "https://github.com/LasithaE/serialkillermuseum",
     },
   ];
   return (
