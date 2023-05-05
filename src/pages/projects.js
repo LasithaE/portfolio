@@ -34,7 +34,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="h-screen">
+    <div id="projects" className="font-bodyFont pt-[70px] md:pt-[100px]">
       <div className="text-3xl font-black">Projects</div>
       <div className="hidden md:flex flex-row m-4 grid-row-2 gap-4">
         <div className="flex flex-col gap-4">
@@ -53,8 +53,8 @@ const Projects = () => {
           )}
         </div>
       </div>
-      <div className="block md:hidden flex flex-row grid-row-2">
-        <div className="flex flex-col">
+      <div className="block md:hidden flex flex-row grid-row-2 pt-5">
+        <div className="flex flex-col gap-4">
           {projects.map((project) => (
             <ProjectCard key={project.id} cardvalue={project} />
           ))}
