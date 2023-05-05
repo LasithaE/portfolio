@@ -14,7 +14,7 @@ const About = () => {
     "I'm a Full Stack developer with a focus on Frontend, passionate about open source, innovative projects, and emerging technologies! I'm always on the lookout for exciting remote opportunities to contribute and grow. I am currently based in Bangalore (India). I enjoy traveling and exploring new places.";
 
   return (
-    <div>
+    <div className="ml-10">
       <div className="h-screen flex flex-col justify-center items-center mt-[40px] font-bodyFont md:pt-20">
         <div className="block relative rounded-[50%] -mt-[100px] bg-brownColor p-4 border-4 border-brownColor md:-mt-[200px]">
           <Image
@@ -30,7 +30,7 @@ const About = () => {
             Hi, this is Lasitha 👋🏻
           </h1>
         </div>
-        <div className="text-center text-md font-black ml-9 px-9 mt-[20px] pb-10 text-brownColor md:px-[50px] text-md">
+        <div className="text-center text-md font-black px-9 mt-[20px] pb-10 text-brownColor md:px-[50px] text-md">
           {intro}
         </div>
         <div className="flex gap-9">
