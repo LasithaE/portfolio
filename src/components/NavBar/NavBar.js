@@ -16,7 +16,7 @@ const NavBar = () => {
   console.log(openNav);
   return (
     <div>
-      <div className="hidden md:block pb-[30px] pt-[30px] fixed w-full bg-bodyColorLight max-h-[80px]">
+      <div className="hidden md:block pb-[30px] pt-[30px] font-bodyFont z-10 fixed w-full bg-bodyColorLight max-h-[80px]">
         <div className="text-black mb-[20px] float-right">
           <Link href="/" className="mr-6 mt-9 font-semibold">
             About
@@ -55,13 +55,13 @@ const NavBar = () => {
       <div onClick={() => setOpenNav(!openNav)}>
         {openNav ? (
           <>
-            <div className="block fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-bodyColorLight h-screen md:hidden ">
+            <div className="block font-bodyFont fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-bodyColorLight h-screen md:hidden ">
               <div className="float-right mr-6 mt-6">
                 <FontAwesomeIcon icon={faClose} size="xl" color="#9D5353" />
               </div>
               <div className="flex flex-col items-center justify-center pt-[25%] pl-2">
                 <Link
-                  href="/#about"
+                  href="/"
                   smooth={true}
                   className="p-2 mr-6 mt-9 font-semibold hover:bg-darkPinkColor hover:border-transparent hover: rounded-md"
                 >
@@ -92,7 +92,7 @@ const NavBar = () => {
                 </Link>
 
                 <Link
-                  href="/#resume"
+                  href="/resume"
                   smooth={true}
                   onClick={downloadResume}
                   className="mr-6 p-2 mt-[29px] font-semibold border-solid border-2 px-2 py-1 mb-3 rounded-lg border-borderColorLight hover:bg-darkPinkColor"

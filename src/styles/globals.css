@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  background-color: #fff4ea;
+  font-family: bodyFont;
+}
 html {
   background-color: #fff4ea;
   font-family: bodyFont;

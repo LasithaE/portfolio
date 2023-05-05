@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ cardvalue }) => {
   return (
-    <div className="border-solid flex flex-col justify-between bg-cardColorLight rounded-xl h-[250px]">
+    <div className="border-solid flex flex-col justify-between bg-cardColorLight p-4 rounded-xl h-[40%]">
       <div className="px-6 pt-6">
         <div className="text-xl font-black pb-3">{cardvalue.name}</div>
         <div className="text-lg font-normal">{cardvalue.desc}</div>
